@@ -34,7 +34,7 @@ describe('Pact Verification', () => {
       ],
       pactBrokerUrl: process.env.PACT_BROKER_BASE_URL,
       // https://docs.pact.io/pact_broker/advanced_topics/pending_pacts
-      // enablePending: true,
+      enablePending: true,
       // https://docs.pact.io/pact_broker/advanced_topics/wip_pacts
       // includeWipPactsSince: '2020-01-01'
     };
